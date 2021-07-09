@@ -1,4 +1,5 @@
 import 'reflect-metadata';
+import '@shared/typeorm';
 
 import express from 'express';
 import cors from 'cors';
