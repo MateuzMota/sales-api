@@ -10,6 +10,4 @@ app.use(express.json());
 
 app.use(routes);
 
-app.listen(port, () => {
-  console.log(`localhost:${port}`);
-});
+app.listen(port);
